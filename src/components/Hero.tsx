@@ -47,7 +47,7 @@ const Hero = () => {
         <div className="animate-fade-in-up">
           <Heart className="mx-auto mb-6 text-rose-300" size={48} />
           <h1 className="font-serif text-5xl md:text-7xl font-bold mb-4">
-            Emma & James
+            Lade Mrudula & Pavan Kumar Varanasi
           </h1>
           <p className="text-xl md:text-2xl mb-8 font-light">
             August 15, 2024 • Santorini, Greece

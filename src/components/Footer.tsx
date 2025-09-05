@@ -22,7 +22,7 @@ const Footer = () => {
             <div className="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-8">
               <a href="mailto:wedding@MrudulaandPavan Kumar Varanasi.com" className="flex items-center text-gray-300 hover:text-white transition-colors">
                 <Mail className="mr-2" size={16} />
-                wedding@MrudulaandPavan Kumar Varanasi.com
+                wedding@MrudulaandPavanKumarVaranasi.com
               </a>
               <a href="tel:+1234567890" className="flex items-center text-gray-300 hover:text-white transition-colors">
                 <Phone className="mr-2" size={16} />

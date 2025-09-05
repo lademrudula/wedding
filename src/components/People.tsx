@@ -6,7 +6,7 @@ const People = () => {
     {
       name: "Sarah Johnson",
       role: "Maid of Honor",
-      description: "Emma's sister and best friend since childhood. Always there with love and laughter.",
+      description: "Mrudula's sister and best friend since childhood. Always there with love and laughter.",
       image: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop"
     },
     {
@@ -24,7 +24,7 @@ const People = () => {
     {
       name: "Grace Wilson",
       role: "Bridesmaid",
-      description: "High school best friend who knows all of Emma's secrets and loves her anyway.",
+      description: "High school best friend who knows all of Mrudula's secrets and loves her anyway.",
       image: "https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop"
     }
   ];
@@ -33,7 +33,7 @@ const People = () => {
     {
       name: "Michael Thompson",
       role: "Best Man", 
-      description: "James's brother and lifelong best friend. The one who always has James's back.",
+      description: "Pavan Kumar Varanasi,'s brother and lifelong best friend. The one who always has Pavan Kumar Varanasi,'s back.",
       image: "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop"
     },
     {
@@ -139,14 +139,14 @@ const People = () => {
               <h4 className="text-xl font-semibold text-gray-900 mb-4">Parents of the Bride</h4>
               <p className="text-gray-600">
                 <strong>Robert & Linda Rose</strong><br />
-                Thank you for raising the most wonderful daughter and for welcoming James into your family with open arms.
+                Thank you for raising the most wonderful daughter and for welcoming Pavan Kumar Varanasi, into your family with open arms.
               </p>
             </div>
             <div>
               <h4 className="text-xl font-semibold text-gray-900 mb-4">Parents of the Groom</h4>
               <p className="text-gray-600">
                 <strong>William & Patricia Alexander</strong><br />
-                Thank you for raising such an amazing son and for embracing Emma as your own daughter from day one.
+                Thank you for raising such an amazing son and for embracing Mrudula as your own daughter from day one.
               </p>
             </div>
           </div>

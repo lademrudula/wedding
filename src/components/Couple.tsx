@@ -92,9 +92,10 @@ const Couple = () => {
               <p className="text-slate-600 font-medium mb-6">Architect & Adventure Seeker</p>
               
               <p className="text-gray-600 leading-relaxed mb-6">
-                Pavan Kumar Varanasi is a talented architect who designs not just buildings, but dreams. Originally from Seattle, 
-                he has a passion for sustainable design and outdoor adventures. Whether he's sketching blueprints 
-                or hiking mountain trails, Pavan Kumar Varanasi approaches everything with creativity and determination.
+                Pavan Kumar Varanasi, born on 25th January 1998 in Narasannapeta, is a Senior Embedded Software Engineer at Robert Bosch,
+                Bangalore, and the Founder of Matric Services. With an M.Tech in Embedded Systems, he has built a successful career while 
+                nurturing his entrepreneurial spirit. Standing 6'0” tall, he is known for his dedication, humility, and passion for technology. 
+                He hails from a reputed family with strong values.
               </p>
               
               <div className="space-y-4">

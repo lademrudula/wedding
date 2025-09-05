@@ -4,9 +4,9 @@ import { Calendar, MapPin, Heart, BellRing as Ring } from 'lucide-react';
 const Story = () => {
   const timeline = [
     {
-      date: "March 2019",
-      title: "First Meeting",
-      description: "Emma and James met at a coffee shop in downtown Seattle. It was love at first sight over lattes and shared dreams.",
+      date: "13/August/2025",
+      title: "First Meet",
+      description: "Mrudula and Pavan Kumar Varanasi met at a coffee shop in downtown Seattle. It was love at first sight over lattes and shared dreams.",
       icon: Heart,
       image: "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
     },
@@ -17,20 +17,22 @@ const Story = () => {
       icon: MapPin,
       image: "https://images.pexels.com/photos/1405963/pexels-photo-1405963.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
     },
-    {
-      date: "December 2021",
-      title: "Moving In Together",
-      description: "They decided to take the next step and moved into their dream apartment with a view of the city skyline.",
-      icon: Calendar,
-      image: "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
-    },
+    
     {
       date: "June 2023",
       title: "The Proposal",
-      description: "James proposed during a sunset picnic at their favorite spot by the lake. Emma said yes through happy tears!",
+      description: "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend",
       icon: Ring,
       image: "https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
     }
+    {
+      date: "27/September/2025",
+      title: "Enagagement",
+      description: "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend,",
+      icon: Calendar,
+      image: "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
+    },
+    
   ];
 
   return (

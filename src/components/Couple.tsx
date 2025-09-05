@@ -31,7 +31,7 @@ const Couple = () => {
             </div>
             
             <div className="p-8">
-              <h3 className="text-3xl font-serif font-bold text-gray-900 mb-2"> Lade Mrudula Rose</h3>
+              <h3 className="text-3xl font-serif font-bold text-gray-900 mb-2"> Lade Mrudula</h3>
               <p className="text-rose-500 font-medium mb-6">Software Engineer</p>
               
               <p className="text-gray-600 leading-relaxed mb-6">
@@ -41,7 +41,7 @@ const Couple = () => {
               </p>
               
               <div className="space-y-4">
-                <h4 className="font-semibold text-gray-900 mb-3">About  Lade Mrudula</h4>
+                <h4 className="font-semibold text-gray-900 mb-3">About Lade Mrudula</h4>
                 
                 <div className="grid grid-cols-2 gap-4 text-sm">
                   <div className="flex items-center">

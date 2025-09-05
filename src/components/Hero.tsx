@@ -50,7 +50,7 @@ const Hero = () => {
             Lade Mrudula & Pavan Kumar Varanasi
           </h1>
           <p className="text-xl md:text-2xl mb-8 font-light">
-            August 15, 2024 • Santorini, Greece
+            27/September/2025
           </p>
           
           {/* Countdown Timer */}

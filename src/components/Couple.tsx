@@ -22,7 +22,7 @@ const Couple = () => {
             <div className="relative overflow-hidden">
               <img
                 src="https://images.pexels.com/photos/1391498/pexels-photo-1391498.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
-                alt="Mrudula - The Bride"
+                alt=" Lade Mrudula - The Bride"
                 className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-500"
               />
               <div className="absolute top-4 right-4 bg-rose-500 text-white px-3 py-1 rounded-full text-sm font-medium">
@@ -31,22 +31,22 @@ const Couple = () => {
             </div>
             
             <div className="p-8">
-              <h3 className="text-3xl font-serif font-bold text-gray-900 mb-2">Mrudula Rose</h3>
-              <p className="text-rose-500 font-medium mb-6">Photographer & Creative Soul</p>
+              <h3 className="text-3xl font-serif font-bold text-gray-900 mb-2"> Lade Mrudula Rose</h3>
+              <p className="text-rose-500 font-medium mb-6">Software Engineer</p>
               
               <p className="text-gray-600 leading-relaxed mb-6">
-                Mrudula, born on 12th January 2001 in Ponduru, is a talented Software Engineer currently working with Axis Bank  
+                 Lade Mrudula, born on 12th January 2001 in Ponduru, is a talented Software Engineer currently working with Axis Bank  
                 as a Manager. She completed her B.Tech in Computer Science from IIIT Nuzvid. Standing 5’3” tall with a graceful personality, 
                 she balances her professional success with strong family values.
               </p>
               
               <div className="space-y-4">
-                <h4 className="font-semibold text-gray-900 mb-3">About Mrudula</h4>
+                <h4 className="font-semibold text-gray-900 mb-3">About  Lade Mrudula</h4>
                 
                 <div className="grid grid-cols-2 gap-4 text-sm">
                   <div className="flex items-center">
                     <Camera className="w-4 h-4 text-rose-500 mr-2" />
-                    <span className="text-gray-600">Photography</span>
+                    <span className="text-gray-600">Software Engineer</span>
                   </div>
                   <div className="flex items-center">
                     <Coffee className="w-4 h-4 text-rose-500 mr-2" />
@@ -64,10 +64,7 @@ const Couple = () => {
                 
                 <div className="pt-4 border-t border-gray-100">
                   <div className="text-sm text-gray-600 space-y-2">
-                    <p><span className="font-medium">Hometown:</span> Portland, Oregon</p>
-                    <p><span className="font-medium">Favorite Quote:</span> "Life is like a camera. Focus on what's important."</p>
-                    <p><span className="font-medium">Dream Destination:</span> Tuscany, Italy</p>
-                    <p><span className="font-medium">Perfect Day:</span> Sunrise photoshoot followed by brunch and gallery hopping</p>
+                    <p><span className="font-medium">Hometown:</span> Ponduru</p>
                   </div>
                 </div>
               </div>
@@ -89,7 +86,7 @@ const Couple = () => {
             
             <div className="p-8">
               <h3 className="text-3xl font-serif font-bold text-gray-900 mb-2">Pavan Kumar Varanasi Alexander</h3>
-              <p className="text-slate-600 font-medium mb-6">Architect & Adventure Seeker</p>
+              <p className="text-slate-600 font-medium mb-6">Senior Embedded Software Engineer at Robert Bosch, Bangalore, and Founder of Matric Services</p>
               
               <p className="text-gray-600 leading-relaxed mb-6">
                 Pavan Kumar Varanasi, born on 25th January 1998 in Narasannapeta, is a Senior Embedded Software Engineer at Robert Bosch,
@@ -122,10 +119,9 @@ const Couple = () => {
                 
                 <div className="pt-4 border-t border-gray-100">
                   <div className="text-sm text-gray-600 space-y-2">
-                    <p><span className="font-medium">Hometown:</span> Seattle, Washington</p>
-                    <p><span className="font-medium">Favorite Quote:</span> "Architecture is frozen music."</p>
-                    <p><span className="font-medium">Dream Destination:</span> Japanese Alps</p>
-                    <p><span className="font-medium">Perfect Day:</span> Mountain hike at dawn, followed by designing and live music</p>
+                    <p><span className="font-medium">Hometown:</span> Narasannapeta</p>
+            
+      
                   </div>
                 </div>
               </div>
@@ -141,7 +137,7 @@ const Couple = () => {
               Perfect Together
             </h3>
             <p className="text-gray-600 leading-relaxed text-lg mb-6">
-              Mrudula captures life's beautiful moments while Pavan Kumar Varanasi builds the foundation for their dreams. 
+               Lade Mrudula captures life's beautiful moments while Pavan Kumar Varanasi builds the foundation for their dreams. 
               She brings creativity and spontaneity to his structured world, while he provides stability 
               and adventure to her artistic soul. Together, they create a perfect balance of passion, 
               creativity, and love.

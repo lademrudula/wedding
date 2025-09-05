@@ -6,7 +6,7 @@ const Story = () => {
     {
       date: "13/August/2025",
       title: "First Meet",
-      description: "Mrudula and Pavan Kumar Varanasi met at a coffee shop in downtown Seattle. It was love at first sight over lattes and shared dreams.",
+      description: " Lade Mrudula and Pavan Kumar Varanasi met at a coffee shop in downtown Seattle. It was love at first sight over lattes and shared dreams.",
       icon: Heart,
       image: "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
     },

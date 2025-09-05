@@ -36,7 +36,7 @@ const Navigation = () => {
             <span className={`font-serif text-xl transition-colors ${
               isScrolled ? 'text-gray-800' : 'text-white'
             }`}>
-              S & M
+              P & M 
             </span>
           </div>
 

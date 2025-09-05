@@ -22,7 +22,7 @@ const Couple = () => {
             <div className="relative overflow-hidden">
               <img
                 src="https://images.pexels.com/photos/1391498/pexels-photo-1391498.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
-                alt="Emma - The Bride"
+                alt="Mrudula - The Bride"
                 className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-500"
               />
               <div className="absolute top-4 right-4 bg-rose-500 text-white px-3 py-1 rounded-full text-sm font-medium">
@@ -31,17 +31,17 @@ const Couple = () => {
             </div>
             
             <div className="p-8">
-              <h3 className="text-3xl font-serif font-bold text-gray-900 mb-2">Emma Rose</h3>
+              <h3 className="text-3xl font-serif font-bold text-gray-900 mb-2">Mrudula Rose</h3>
               <p className="text-rose-500 font-medium mb-6">Photographer & Creative Soul</p>
               
               <p className="text-gray-600 leading-relaxed mb-6">
-                Emma is a passionate photographer who sees beauty in every moment. Born and raised in Portland, 
-                she has an eye for capturing life's most precious memories. When she's not behind the camera, 
-                you'll find her exploring art galleries, trying new coffee shops, or planning her next adventure.
+                Mrudula, born on 12th January 2001 in Ponduru, is a talented Software Engineer currently working with Axis Bank  
+                as a Manager. She completed her B.Tech in Computer Science from IIIT Nuzvid. Standing 5’3” tall with a graceful personality, 
+                she balances her professional success with strong family values.
               </p>
               
               <div className="space-y-4">
-                <h4 className="font-semibold text-gray-900 mb-3">About Emma</h4>
+                <h4 className="font-semibold text-gray-900 mb-3">About Mrudula</h4>
                 
                 <div className="grid grid-cols-2 gap-4 text-sm">
                   <div className="flex items-center">
@@ -79,7 +79,7 @@ const Couple = () => {
             <div className="relative overflow-hidden">
               <img
                 src="https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
-                alt="James - The Groom"
+                alt="Pavan Kumar Varanasi - The Groom"
                 className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-500"
               />
               <div className="absolute top-4 right-4 bg-slate-600 text-white px-3 py-1 rounded-full text-sm font-medium">
@@ -88,17 +88,17 @@ const Couple = () => {
             </div>
             
             <div className="p-8">
-              <h3 className="text-3xl font-serif font-bold text-gray-900 mb-2">James Alexander</h3>
+              <h3 className="text-3xl font-serif font-bold text-gray-900 mb-2">Pavan Kumar Varanasi Alexander</h3>
               <p className="text-slate-600 font-medium mb-6">Architect & Adventure Seeker</p>
               
               <p className="text-gray-600 leading-relaxed mb-6">
-                James is a talented architect who designs not just buildings, but dreams. Originally from Seattle, 
+                Pavan Kumar Varanasi is a talented architect who designs not just buildings, but dreams. Originally from Seattle, 
                 he has a passion for sustainable design and outdoor adventures. Whether he's sketching blueprints 
-                or hiking mountain trails, James approaches everything with creativity and determination.
+                or hiking mountain trails, Pavan Kumar Varanasi approaches everything with creativity and determination.
               </p>
               
               <div className="space-y-4">
-                <h4 className="font-semibold text-gray-900 mb-3">About James</h4>
+                <h4 className="font-semibold text-gray-900 mb-3">About Pavan Kumar Varanasi</h4>
                 
                 <div className="grid grid-cols-2 gap-4 text-sm">
                   <div className="flex items-center">
@@ -140,7 +140,7 @@ const Couple = () => {
               Perfect Together
             </h3>
             <p className="text-gray-600 leading-relaxed text-lg mb-6">
-              Emma captures life's beautiful moments while James builds the foundation for their dreams. 
+              Mrudula captures life's beautiful moments while Pavan Kumar Varanasi builds the foundation for their dreams. 
               She brings creativity and spontaneity to his structured world, while he provides stability 
               and adventure to her artistic soul. Together, they create a perfect balance of passion, 
               creativity, and love.

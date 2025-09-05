@@ -3,10 +3,10 @@ import { Heart } from 'lucide-react';
 
 const Hero = () => {
   const [timeLeft, setTimeLeft] = useState({
-    days: 0,
-    hours: 0,
-    minutes: 0,
-    seconds: 0
+    days: 3,
+    hours: 20,
+    minutes: 47,
+    seconds: 50
   });
 
   // Wedding date - Change this to your actual wedding date

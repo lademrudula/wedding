@@ -24,7 +24,7 @@ const Story = () => {
       description: "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend",
       icon: Ring,
       image: "https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
-    }
+    },
     {
       date: "27/September/2025",
       title: "Enagagement",

@@ -1,38 +1,32 @@
 import React from 'react';
-import { Calendar, Clock, MapPin, Music, Utensils } from 'lucide-react';
+import { Calendar, Clock, MapPin, Music } from 'lucide-react';
 
 const Events = () => {
   const events = [
     {
-      title: "Wedding Ceremony",
-      date: "August 15, 2024",
-      time: "4:00 PM",
-      location: "Sunset Chapel, Santorini",
+      title: "The Reception",
+      date: "Nov 25 2017",
+      time: "9AM - 5PM",
+      location: "32 big bro road, Chanpai, London.",
       address: "Oia, Santorini, Greece",
-      description: "Join us as we exchange vows with the breathtaking Aegean Sea as our backdrop.",
+      description:
+        "When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
       icon: Calendar,
-      image: "https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
+      image:
+        "https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop",
     },
     {
-      title: "Cocktail Hour",
-      date: "August 15, 2024", 
-      time: "5:30 PM",
-      location: "Terrace Gardens",
+      title: "Wedding Party",
+      date: "Nov 25 2017",
+      time: "9AM - 5PM",
+      location: "32 big bro road, Chanpai, London.",
       address: "Same venue as ceremony",
-      description: "Sip signature cocktails and enjoy appetizers while mingling with family and friends.",
+      description:
+        "When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
       icon: Music,
-      image: "https://images.pexels.com/photos/1058277/pexels-photo-1058277.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
+      image:
+        "https://images.pexels.com/photos/1058277/pexels-photo-1058277.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop",
     },
-    {
-      title: "Reception Dinner",
-      date: "August 15, 2024",
-      time: "7:00 PM",
-      location: "Oceanview Pavilion",
-      address: "Oia, Santorini, Greece",
-      description: "Celebrate with us under the stars with dinner, dancing, and memories to last a lifetime.",
-      icon: Utensils,
-      image: "https://images.pexels.com/photos/587741/pexels-photo-587741.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
-    }
   ];
 
   return (
@@ -52,7 +46,10 @@ const Events = () => {
           {events.map((event, index) => {
             const Icon = event.icon;
             return (
-              <div key={index} className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 group">
+              <div
+                key={index}
+                className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 group"
+              >
                 <div className="relative overflow-hidden">
                   <img
                     src={event.image}
@@ -63,12 +60,12 @@ const Events = () => {
                     <Icon size={20} />
                   </div>
                 </div>
-                
+
                 <div className="p-6">
                   <h3 className="text-2xl font-serif font-bold text-gray-900 mb-4">
                     {event.title}
                   </h3>
-                  
+
                   <div className="space-y-3 mb-4">
                     <div className="flex items-center text-gray-600">
                       <Calendar className="mr-3 text-rose-500" size={16} />
@@ -86,7 +83,7 @@ const Events = () => {
                       </div>
                     </div>
                   </div>
-                  
+
                   <p className="text-gray-600 leading-relaxed">
                     {event.description}
                   </p>
@@ -94,37 +91,6 @@ const Events = () => {
               </div>
             );
           })}
-        </div>
-
-        {/* Additional Information */}
-        <div className="mt-16 bg-white rounded-2xl p-8 shadow-lg">
-          <h3 className="text-2xl font-serif font-bold text-gray-900 mb-6 text-center">
-            Important Information
-          </h3>
-          <div className="grid md:grid-cols-2 gap-8">
-            <div>
-              <h4 className="font-semibold text-gray-900 mb-3">Dress Code</h4>
-              <p className="text-gray-600 mb-4">
-                Cocktail attire requested. The ceremony will be outdoors, so please consider comfortable footwear for walking on stone paths.
-              </p>
-              
-              <h4 className="font-semibold text-gray-900 mb-3">Transportation</h4>
-              <p className="text-gray-600">
-                Shuttle service will be provided from major hotels in Oia. Please indicate your accommodation when you RSVP.
-              </p>
-            </div>
-            <div>
-              <h4 className="font-semibold text-gray-900 mb-3">Accommodations</h4>
-              <p className="text-gray-600 mb-4">
-                We have reserved room blocks at several hotels in Santorini. Please check our website for booking information and special rates.
-              </p>
-              
-              <h4 className="font-semibold text-gray-900 mb-3">Weather</h4>
-              <p className="text-gray-600">
-                August in Santorini is warm and sunny. Average temperature is 75°F. We'll have both indoor and outdoor spaces available.
-              </p>
-            </div>
-          </div>
         </div>
       </div>
     </section>

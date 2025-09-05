@@ -46,8 +46,8 @@ const Footer = () => {
 
           {/* Wedding Date Reminder */}
           <div className="mb-8 py-8 border-t border-b border-gray-700">
-            <div className="text-2xl font-serif mb-2">August 15, 2024</div>
-            <div className="text-gray-400">Santorini, Greece</div>
+            <div className="text-2xl font-serif mb-2">27/September/2025</div>
+            
             <div className="text-sm text-gray-400 mt-2">Save the Date</div>
           </div>
 

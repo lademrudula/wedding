@@ -85,7 +85,7 @@ const Couple = () => {
             </div>
             
             <div className="p-8">
-              <h3 className="text-3xl font-serif font-bold text-gray-900 mb-2">Pavan Kumar Varanasi Alexander</h3>
+              <h3 className="text-3xl font-serif font-bold text-gray-900 mb-2">Pavan Kumar Varanasi </h3>
               <p className="text-slate-600 font-medium mb-6">Senior Embedded Software Engineer at Robert Bosch, Bangalore, and Founder of Matric Services</p>
               
               <p className="text-gray-600 leading-relaxed mb-6">

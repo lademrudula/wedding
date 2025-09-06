@@ -1,5 +1,7 @@
 import React from 'react';
-import { Heart, Camera, Music, Coffee, Mountain, Book, Palette, Plane } from 'lucide-react';
+import { Heart, Camera, Music, Coffee, Mountain, Book, Palette, Plane, Laptop, Laptop2 } from 'lucide-react';
+import mrudula from '../images/Mrudula.jpg'
+import pavan from '../images/Pavan.jpg'
 
 const Couple = () => {
   return (
@@ -17,65 +19,13 @@ const Couple = () => {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-16 items-start">
-          {/* Bride Section */}
-          <div className="bg-white rounded-2xl shadow-lg overflow-hidden group hover:shadow-xl transition-all duration-300">
-            <div className="relative overflow-hidden">
-              <img
-                src="https://images.pexels.com/photos/1391498/pexels-photo-1391498.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
-                alt=" Lade Mrudula - The Bride"
-                className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-500"
-              />
-              <div className="absolute top-4 right-4 bg-rose-500 text-white px-3 py-1 rounded-full text-sm font-medium">
-                The Bride
-              </div>
-            </div>
-            
-            <div className="p-8">
-              <h3 className="text-3xl font-serif font-bold text-gray-900 mb-2"> Lade Mrudula</h3>
-              <p className="text-rose-500 font-medium mb-6">Software Engineer</p>
-              
-              <p className="text-gray-600 leading-relaxed mb-6">
-                 Lade Mrudula, born on 12th January 2001 in Ponduru, is a talented Software Engineer currently working with Axis Bank  
-                as a Manager. She completed her B.Tech in Computer Science from IIIT Nuzvid. Standing 5’3” tall with a graceful personality, 
-                she balances her professional success with strong family values.
-              </p>
-              
-              <div className="space-y-4">
-                <h4 className="font-semibold text-gray-900 mb-3">About Lade Mrudula</h4>
-                
-                <div className="grid grid-cols-2 gap-4 text-sm">
-                  <div className="flex items-center">
-                    <Camera className="w-4 h-4 text-rose-500 mr-2" />
-                    <span className="text-gray-600">Software Engineer</span>
-                  </div>
-                  <div className="flex items-center">
-                    <Coffee className="w-4 h-4 text-rose-500 mr-2" />
-                    <span className="text-gray-600">Coffee Enthusiast</span>
-                  </div>
-                  <div className="flex items-center">
-                    <Palette className="w-4 h-4 text-rose-500 mr-2" />
-                    <span className="text-gray-600">Art Lover</span>
-                  </div>
-                  <div className="flex items-center">
-                    <Book className="w-4 h-4 text-rose-500 mr-2" />
-                    <span className="text-gray-600">Bookworm</span>
-                  </div>
-                </div>
-                
-                <div className="pt-4 border-t border-gray-100">
-                  <div className="text-sm text-gray-600 space-y-2">
-                    <p><span className="font-medium">Hometown:</span> Ponduru</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          
 
           {/* Groom Section */}
           <div className="bg-white rounded-2xl shadow-lg overflow-hidden group hover:shadow-xl transition-all duration-300">
-            <div className="relative overflow-hidden">
+            <div className="relative overflow-hidden ">
               <img
-                src="https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
+                src={pavan}
                 alt="Pavan Kumar Varanasi - The Groom"
                 className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-500"
               />
@@ -86,13 +36,13 @@ const Couple = () => {
             
             <div className="p-8">
               <h3 className="text-3xl font-serif font-bold text-gray-900 mb-2">Pavan Kumar Varanasi </h3>
-              <p className="text-slate-600 font-medium mb-6">Senior Embedded Software Engineer at Robert Bosch, Bangalore, and Founder of Matric Services</p>
+              <p className="text-slate-600 font-medium mb-6">Senior Embedded Software Engineer</p>
               
               <p className="text-gray-600 leading-relaxed mb-6">
-                Pavan Kumar Varanasi, born on 25th January 1998 in Narasannapeta, is a Senior Embedded Software Engineer at Robert Bosch,
-                Bangalore, and the Founder of Matric Services. With an M.Tech in Embedded Systems, he has built a successful career while 
-                nurturing his entrepreneurial spirit. Standing 6'0” tall, he is known for his dedication, humility, and passion for technology. 
-                He hails from a reputed family with strong values.
+                Pavan is a humble and passionate individual who combines dedication with vision.
+                 A Senior Embedded Software Engineer at Robert Bosch and Founder of Matric Services, 
+                 he is admired for his commitment and love for technology. 
+                 His grounded personality and respect for values make him a true gentleman.
               </p>
               
               <div className="space-y-4">
@@ -100,28 +50,70 @@ const Couple = () => {
                 
                 <div className="grid grid-cols-2 gap-4 text-sm">
                   <div className="flex items-center">
-                    <Mountain className="w-4 h-4 text-slate-600 mr-2" />
-                    <span className="text-gray-600">Hiking</span>
+                    <Laptop className="w-4 h-4 text-slate-600 mr-2" />
+                    <span className="text-gray-600">Techie</span>
                   </div>
-                  <div className="flex items-center">
-                    <Music className="w-4 h-4 text-slate-600 mr-2" />
-                    <span className="text-gray-600">Guitar Player</span>
-                  </div>
+                  
                   <div className="flex items-center">
                     <Plane className="w-4 h-4 text-slate-600 mr-2" />
                     <span className="text-gray-600">Travel Lover</span>
                   </div>
-                  <div className="flex items-center">
-                    <Coffee className="w-4 h-4 text-slate-600 mr-2" />
-                    <span className="text-gray-600">Coffee Connoisseur</span>
-                  </div>
+                
                 </div>
                 
                 <div className="pt-4 border-t border-gray-100">
                   <div className="text-sm text-gray-600 space-y-2">
-                    <p><span className="font-medium">Hometown:</span> Narasannapeta</p>
+                    <p><span className="font-medium">Hometown:</span> Visakhapatnam</p>
             
       
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Bride Section */}
+          <div className="bg-white rounded-2xl shadow-lg overflow-hidden group hover:shadow-xl transition-all duration-300">
+            <div className="relative overflow-hidden">
+              <img
+                src= {mrudula}
+                alt=" Lade Mrudula - The Bride"
+                className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+              <div className="absolute top-4 right-4 bg-rose-500 text-white px-3 py-1 rounded-full text-sm font-medium">
+                The Bride
+              </div>
+            </div>
+            
+            <div className="p-8">
+              <h3 className="text-3xl font-serif font-bold text-gray-900 mb-2"> Lade Mrudula</h3>
+              <p className="text-gray-900 font-medium mb-6">Software Engineer</p>
+              
+              <p className="text-gray-600 leading-relaxed mb-6">
+                 Mrudula is a graceful and talented young woman whose charm lies in her simplicity and strong values. 
+                 A Software Engineer with Axis Bank, she beautifully balances her professional achievements with warmth and affection for her loved ones.
+                  Her elegance and kind nature make her truly special.
+              </p>
+              
+              <div className="space-y-4">
+                <h4 className="font-semibold text-gray-900 mb-3">About Lade Mrudula</h4>
+                
+                <div className="grid grid-cols-2 gap-4 text-sm">
+                 
+                  <div className="flex items-center">
+                    <Laptop2 className="w-4 h-4 text-rose-500 mr-2" />
+                    <span className="text-gray-600">Tech Savvy</span>
+                  </div>
+                  <div className="flex items-center">
+                    <Music className="w-4 h-4 text-rose-500 mr-2" />
+                    <span className="text-gray-600">Music Lover</span>
+                  </div>
+                  
+                </div>
+                
+                <div className="pt-4 border-t border-gray-100">
+                  <div className="text-sm text-gray-600 space-y-2">
+                    <p><span className="font-medium">Hometown:</span> Hiramandalam</p>
                   </div>
                 </div>
               </div>
@@ -137,7 +129,7 @@ const Couple = () => {
               Perfect Together
             </h3>
             <p className="text-gray-600 leading-relaxed text-lg mb-6">
-               Lade Mrudula captures life's beautiful moments while Pavan Kumar Varanasi builds the foundation for their dreams. 
+               Mrudula captures life's beautiful moments while Pavan builds the foundation for their dreams. 
               She brings creativity and spontaneity to his structured world, while he provides stability 
               and adventure to her artistic soul. Together, they create a perfect balance of passion, 
               creativity, and love.

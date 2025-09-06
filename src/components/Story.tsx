@@ -1,35 +1,28 @@
 import React from 'react';
-import { Calendar, MapPin, Heart, BellRing as Ring } from 'lucide-react';
+import { Calendar, HeartHandshake , Heart, BellRing as Ring } from 'lucide-react';
 
 const Story = () => {
   const timeline = [
     {
-      date: "13/August/2025",
+      date: "13 August 2025",
       title: "First Meet",
-      description: " Lade Mrudula and Pavan Kumar Varanasi met at a coffee shop in downtown Seattle. It was love at first sight over lattes and shared dreams.",
+      description: "Pavan and Mrudula’s journey began with a traditional arranged meeting that quickly turned into a warm and effortless connection. In that very first conversation, they found shared values, mutual respect, and a sense of comfort — the beautiful beginning of a lifelong bond filled with love and togetherness. ",
       icon: Heart,
       image: "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
     },
     {
-      date: "August 2019",
-      title: "First Date",
-      description: "Their first official date was a hiking trip to Mount Rainier, where they discovered their shared love for adventure.",
-      icon: MapPin,
+      date: "30 August 2025",
+      title: "Union Of Hearts",
+      description: "The match was beautifully fixed on a memorable day when two hearts and two families came together with joy and blessings. With the warmth of loved ones and the grace of tradition, Mrudula and Pavan’s bond was sealed, marking the beginning of a lifelong journey filled with love, trust, and togetherness.",
+      icon: HeartHandshake,
       image: "https://images.pexels.com/photos/1405963/pexels-photo-1405963.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
     },
     
     {
-      date: "June 2023",
-      title: "The Proposal",
-      description: "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend",
-      icon: Ring,
-      image: "https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
-    },
-    {
-      date: "27/September/2025",
+      date: "27 September 2025",
       title: "Enagagement",
-      description: "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend,",
-      icon: Calendar,
+      description: "We are delighted to share that the engagement of Mrudula & Pavan is soon to happen, a joyous occasion where two hearts and families come together to celebrate love and togetherness. With blessings and happiness all around, this marks the beautiful beginning of their lifelong journey.",
+       icon: Calendar,
       image: "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
     },
     
@@ -57,7 +50,7 @@ const Story = () => {
             const isEven = index % 2 === 0;
             
             return (
-              <div key={index} className={`relative mb-16 md:mb-24 ${isEven ? 'md:text-right' : 'md:text-left'}`}>
+              <div key={index} className={`relative mb-16 md:mb-24 ${isEven ? 'md:text-left' : 'md:text-left'}`}>
                 {/* Timeline dot */}
                 <div className="absolute left-1/2 transform -translate-x-1/2 w-12 h-12 bg-rose-500 rounded-full flex items-center justify-center shadow-lg z-10 hidden md:flex">
                   <Icon className="text-white" size={20} />
@@ -96,11 +89,11 @@ const Story = () => {
 
         {/* Quote */}
         <div className="text-center mt-20">
-          <div className="bg-rose-50 rounded-2xl p-8 max-w-3xl mx-auto">
+          <div className="bg-rose-50 rounded-2xl p-8 max-w-2xl mx-auto">
             <blockquote className="text-xl md:text-2xl font-serif italic text-gray-700 mb-4">
-              "Being deeply loved by someone gives you strength, while loving someone deeply gives you courage."
+              "Where Pavan’s breeze dances with Mrudula’s grace, love blooms eternal."
             </blockquote>
-            <cite className="text-rose-500 font-medium">— Lao Tzu</cite>
+          
           </div>
         </div>
       </div>

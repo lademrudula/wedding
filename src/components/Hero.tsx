@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Heart } from 'lucide-react';
+import { Heart, Home } from 'lucide-react';
 
 const Hero = () => {
   const [timeLeft, setTimeLeft] = useState({
@@ -10,7 +10,7 @@ const Hero = () => {
   });
 
   // Wedding date - Change this to your actual wedding date
-  const weddingDate = new Date('2024-08-15T16:00:00').getTime();
+  const weddingDate = new Date('2025-09-27T10:00:00').getTime();
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -47,15 +47,15 @@ const Hero = () => {
         <div className="animate-fade-in-up">
           <Heart className="mx-auto mb-6 text-rose-300" size={48} />
           <h1 className="font-serif text-5xl md:text-7xl font-bold mb-4">
-            Lade Mrudula & Pavan Kumar Varanasi
+            Pavan & Mrudula
           </h1>
           <p className="text-xl md:text-2xl mb-8 font-light">
-            27/September/2025
+            <b>27/September/2025</b>
           </p>
           
           {/* Countdown Timer */}
           <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 max-w-2xl mx-auto mb-8">
-            <h3 className="text-2xl font-serif mb-6">Until We Say "I Do"</h3>
+            <h3 className="text-2xl font-serif mb-6"><b>Hola..We are getting Engaged</b> </h3>
             <div className="grid grid-cols-4 gap-4">
               <div className="text-center">
                 <div className="bg-white/20 backdrop-blur-sm rounded-lg p-4 mb-2">
@@ -85,7 +85,7 @@ const Hero = () => {
           </div>
 
           <p className="text-lg font-light opacity-90">
-            Join us as we celebrate our love story
+            Join us as we celebrate our love 
           </p>
         </div>
       </div>

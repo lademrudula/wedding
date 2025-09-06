@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Heart } from 'lucide-react';
+import logo from '../images/Logo.png'
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -36,7 +37,12 @@ const Navigation = () => {
             <span className={`font-serif text-xl transition-colors ${
               isScrolled ? 'text-gray-800' : 'text-white'
             }`}>
-              P & M 
+               {/*<img
+                src = {logo}
+                alt="Wedding logo"
+                className="w-full h-48 object-cover rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
+              />*/}
+              MruduVan
             </span>
           </div>
 

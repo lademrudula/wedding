@@ -3,30 +3,21 @@ import { Calendar, Clock, MapPin, Music } from 'lucide-react';
 
 const Events = () => {
   const events = [
+
     {
-      title: "The Reception",
-      date: "Nov 25 2017",
-      time: "9AM - 5PM",
-      location: "32 big bro road, Chanpai, London.",
-      address: "Oia, Santorini, Greece",
-      description:
-        "When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
-      icon: Calendar,
-      image:
-        "https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop",
-    },
-    {
-      title: "Wedding Party",
-      date: "Nov 25 2017",
-      time: "9AM - 5PM",
-      location: "32 big bro road, Chanpai, London.",
+      title: "Engagement Party",
+      date: "Sept 27 2025",
+      time: "10AM - 3PM",
+      location: "Sri Krishnaveni Function Hall, Hiramandalam, Andhra Pradesh 532459",
       address: "Same venue as ceremony",
       description:
-        "When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        "We are delighted to share that the engagement of Mrudula & Pavan is soon to happen, a joyous occasion where two hearts and families come together to celebrate love and togetherness. With blessings and happiness all around, this marks the beautiful beginning of their lifelong journey.",
       icon: Music,
+
       image:
         "https://images.pexels.com/photos/1058277/pexels-photo-1058277.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop",
     },
+
   ];
 
   return (
@@ -35,7 +26,7 @@ const Events = () => {
         <div className="text-center mb-16">
           <Calendar className="mx-auto mb-4 text-rose-500" size={40} />
           <h2 className="text-4xl md:text-5xl font-serif font-bold text-gray-900 mb-4">
-            Wedding Events
+            Engagement Events
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Mark your calendars! Here's everything you need to know about our special day and the celebrations that surround it.
@@ -43,12 +34,14 @@ const Events = () => {
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
+          <div></div>
           {events.map((event, index) => {
             const Icon = event.icon;
             return (
               <div
                 key={index}
-                className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 group"
+                className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 group -ml-10"
+                style={{width : 500}}
               >
                 <div className="relative overflow-hidden">
                   <img
@@ -78,7 +71,11 @@ const Events = () => {
                     <div className="flex items-start text-gray-600">
                       <MapPin className="mr-3 text-rose-500 mt-1" size={16} />
                       <div>
-                        <div className="font-medium">{event.location}</div>
+                        <div className="font-medium">
+                         <a href="https://maps.app.goo.gl/JdgUnSBmvsZyS2626" target='_blank' className="flex items-center text-gray-600 hover:text-gray-900 transition-colors">
+                            {event.location}
+                        </a>
+                        </div>
                         <div className="text-sm">{event.address}</div>
                       </div>
                     </div>
@@ -91,6 +88,7 @@ const Events = () => {
               </div>
             );
           })}
+          <div></div>
         </div>
       </div>
     </section>

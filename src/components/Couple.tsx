@@ -21,7 +21,57 @@ const Couple = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-start">
           
 
-          {/* Groom Section */}
+     
+
+          {/* Bride Section */}
+          <div className="bg-white rounded-2xl shadow-lg overflow-hidden group hover:shadow-xl transition-all duration-300">
+            <div className="relative overflow-hidden">
+              <img
+                src= {mrudula}
+                alt=" Lade Mrudula - The Bride"
+                className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+              <div className="absolute top-4 right-4 bg-rose-500 text-white px-3 py-1 rounded-full text-sm font-medium">
+                The Bride
+              </div>
+            </div>
+            
+            <div className="p-8">
+              <h3 className="text-3xl font-serif font-bold text-gray-900 mb-2">Mrudula Lade</h3>
+              <p className="text-gray-900 font-medium mb-6">Software Engineer</p>
+              
+              <p className="text-gray-600 leading-relaxed mb-6">
+                 Mrudula is a graceful and talented young woman whose charm lies in her simplicity and strong values. 
+                 A Software Engineer with Axis Bank, she beautifully balances her professional achievements with warmth and affection for her loved ones.
+                  Her elegance and kind nature make her truly special.
+              </p>
+              
+              <div className="space-y-4">
+                <h4 className="font-semibold text-gray-900 mb-3">About Lade Mrudula</h4>
+                
+                <div className="grid grid-cols-2 gap-4 text-sm">
+                 
+                  <div className="flex items-center">
+                    <Laptop2 className="w-4 h-4 text-rose-500 mr-2" />
+                    <span className="text-gray-600">Tech Savvy</span>
+                  </div>
+                  <div className="flex items-center">
+                    <Music className="w-4 h-4 text-rose-500 mr-2" />
+                    <span className="text-gray-600">Music Lover</span>
+                  </div>
+                  
+                </div>
+                
+                <div className="pt-4 border-t border-gray-100">
+                  <div className="text-sm text-gray-600 space-y-2">
+                    <p><span className="font-medium">Hometown:</span> Hiramandalam</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+               {/* Groom Section */}
           <div className="bg-white rounded-2xl shadow-lg overflow-hidden group hover:shadow-xl transition-all duration-300">
             <div className="relative overflow-hidden ">
               <img
@@ -66,54 +116,6 @@ const Couple = () => {
                     <p><span className="font-medium">Hometown:</span> Visakhapatnam</p>
             
       
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Bride Section */}
-          <div className="bg-white rounded-2xl shadow-lg overflow-hidden group hover:shadow-xl transition-all duration-300">
-            <div className="relative overflow-hidden">
-              <img
-                src= {mrudula}
-                alt=" Lade Mrudula - The Bride"
-                className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-500"
-              />
-              <div className="absolute top-4 right-4 bg-rose-500 text-white px-3 py-1 rounded-full text-sm font-medium">
-                The Bride
-              </div>
-            </div>
-            
-            <div className="p-8">
-              <h3 className="text-3xl font-serif font-bold text-gray-900 mb-2"> Lade Mrudula</h3>
-              <p className="text-gray-900 font-medium mb-6">Software Engineer</p>
-              
-              <p className="text-gray-600 leading-relaxed mb-6">
-                 Mrudula is a graceful and talented young woman whose charm lies in her simplicity and strong values. 
-                 A Software Engineer with Axis Bank, she beautifully balances her professional achievements with warmth and affection for her loved ones.
-                  Her elegance and kind nature make her truly special.
-              </p>
-              
-              <div className="space-y-4">
-                <h4 className="font-semibold text-gray-900 mb-3">About Lade Mrudula</h4>
-                
-                <div className="grid grid-cols-2 gap-4 text-sm">
-                 
-                  <div className="flex items-center">
-                    <Laptop2 className="w-4 h-4 text-rose-500 mr-2" />
-                    <span className="text-gray-600">Tech Savvy</span>
-                  </div>
-                  <div className="flex items-center">
-                    <Music className="w-4 h-4 text-rose-500 mr-2" />
-                    <span className="text-gray-600">Music Lover</span>
-                  </div>
-                  
-                </div>
-                
-                <div className="pt-4 border-t border-gray-100">
-                  <div className="text-sm text-gray-600 space-y-2">
-                    <p><span className="font-medium">Hometown:</span> Hiramandalam</p>
                   </div>
                 </div>
               </div>

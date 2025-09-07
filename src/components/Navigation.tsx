@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Heart } from 'lucide-react';
+import { Menu, X, Heart, HeartHandshakeIcon } from 'lucide-react';
 import logo from '../images/Logo.png'
+import FontAwesomeIcon from 'react-fontawesome'
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,18 +32,24 @@ const Navigation = () => {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <div className="flex items-center gap-2">
-            <Heart className={`w-6 h-6 transition-colors ${
+            <HeartHandshakeIcon className={`w-6 h-6 transition-colors ${
               isScrolled ? 'text-rose-500' : 'text-white'
             }`} />
+            <span  className={`w-6 h-6 font-serif italic transition-colors ${
+              isScrolled ? 'text-rose-500' : 'text-white'
+            }`}> 
+             MruduVan
+            </span>
+            
             <span className={`font-serif text-xl transition-colors ${
               isScrolled ? 'text-gray-800' : 'text-white'
             }`}>
-               {/*<img
+              {/* <img
                 src = {logo}
                 alt="Wedding logo"
                 className="w-full h-48 object-cover rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
               />*/}
-              MruduVan
+             
             </span>
           </div>
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Calendar, Clock, MapPin, Music } from 'lucide-react';
+import Engagementring from '../images/Engagement.png'
 
 const Events = () => {
   const events = [
@@ -9,13 +10,12 @@ const Events = () => {
       date: "Sept 27 2025",
       time: "10AM - 3PM",
       location: "Sri Krishnaveni Function Hall, Hiramandalam, Andhra Pradesh 532459",
-      address: "Same venue as ceremony",
+      address: "",
       description:
         "We are delighted to share that the engagement of Mrudula & Pavan is soon to happen, a joyous occasion where two hearts and families come together to celebrate love and togetherness. With blessings and happiness all around, this marks the beautiful beginning of their lifelong journey.",
       icon: Music,
 
-      image:
-        "https://images.pexels.com/photos/1058277/pexels-photo-1058277.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop",
+      image:{name : Engagementring}
     },
 
   ];
@@ -45,13 +45,13 @@ const Events = () => {
               >
                 <div className="relative overflow-hidden">
                   <img
-                    src={event.image}
+                    src={event.image.name}
                     alt={event.title}
                     className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500"
                   />
-                  <div className="absolute top-4 left-4 bg-rose-500 text-white p-3 rounded-full">
+                 {/* <div className="absolute top-4 left-4 bg-rose-500 text-white p-3 rounded-full">
                     <Icon size={20} />
-                  </div>
+                  </div>*/}
                 </div>
 
                 <div className="p-6">

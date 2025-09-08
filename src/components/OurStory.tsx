@@ -1,6 +1,7 @@
 import React from 'react';
 import { Heart } from 'lucide-react';
 
+
 const OurStory = () => {
   return (
     <section id="story" className="py-20 bg-cream">

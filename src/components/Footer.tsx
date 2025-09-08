@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           {/* Logo/Names */}
-          <div className="mb-8">
+          <div className="mb-2">
             <h3 className="text-3xl font-serif font-bold mb-2">Mrudula & Pavan</h3>
             <div className="flex items-center justify-center">
               <div className="h-px bg-white/30 flex-1 max-w-16"></div>
@@ -16,7 +16,7 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Contact Info */}
+          {/* Contact Info 
           <div className="mb-8">
             <h4 className="text-lg font-semibold mb-4">Questions?</h4>
             <div className="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-8">
@@ -30,6 +30,7 @@ const Footer = () => {
               </a>
             </div>
           </div>
+          */}
 
           {/* Social Media */}
          { /*<div className="mb-8">
@@ -45,7 +46,7 @@ const Footer = () => {
           </div>
 */}
           {/* Wedding Date Reminder */}
-          <div className="mb-8 py-8 border-t border-b border-gray-700">
+          <div className="mb-8 py-8 border-b border-gray-700">
             <div className="text-2xl font-serif mb-2">27 September 2025</div>
             
             <div className="text-sm text-gray-400 mt-2">Save the Date</div>
@@ -56,7 +57,6 @@ const Footer = () => {
             <blockquote className="text-lg font-serif italic text-gray-300 mb-2">
               "Love is not just looking at each other, it's looking in the same direction."
             </blockquote>
-           
           </div>
 
           {/* Copyright */}

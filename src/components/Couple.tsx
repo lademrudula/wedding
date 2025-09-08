@@ -42,7 +42,7 @@ const Couple = () => {
               
               <p className="text-gray-600 leading-relaxed mb-6">
                  Mrudula is a graceful and talented young woman whose charm lies in her simplicity and strong values. 
-                 A Software Engineer with Axis Bank, she beautifully balances her professional achievements with warmth and affection for her loved ones.
+                 A Software Engineer, she beautifully balances her professional achievements with warmth and affection for her loved ones.
                   Her elegance and kind nature make her truly special.
               </p>
               
@@ -72,8 +72,8 @@ const Couple = () => {
           </div>
 
                {/* Groom Section */}
-          <div className="bg-white rounded-2xl shadow-lg overflow-hidden group hover:shadow-xl transition-all duration-300">
-            <div className="relative overflow-hidden ">
+          <div className="bg-white rounded-2xl shadow-lg overflow-hidden  group hover:shadow-xl transition-all duration-300">
+            <div className="relative overflow-hidden">
               <img
                 src={pavan}
                 alt="Pavan Kumar Varanasi - The Groom"
@@ -90,7 +90,7 @@ const Couple = () => {
               
               <p className="text-gray-600 leading-relaxed mb-6">
                 Pavan is a humble and passionate individual who combines dedication with vision.
-                 A Senior Embedded Software Engineer at Robert Bosch and Founder of Matric Services, 
+                 A Senior Embedded Software Engineer, 
                  he is admired for his commitment and love for technology. 
                  His grounded personality and respect for values make him a true gentleman.
               </p>

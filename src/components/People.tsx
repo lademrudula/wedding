@@ -1,37 +1,47 @@
 import React from 'react';
 import { Users, Crown, Flower } from 'lucide-react';
-
+import Girish from '../images/Girish.jpg'
+import Srivani from '../images/Srivani.jpg'
+import Sandeep from '../images/Sandeep.jpg'
+import Murty from '../images/Murty.jpg'
+import Kusuma from '../images/Kusuma.jpg'
+import Bhagya from '../images/Bhagya.jpg'
+import Priyanka from '../images/Priyanka.jpg'
+import Durgarao from '../images/DurgaRao.jpg'
+import Abhishek from '../images/Abhishek.jpg'
+import GroomParents from '../images/Groomparents.jpg'
+import BrideParents from '../images/Brideparents.jpg'
 const People = () => {
   const brideParty = [
     {
       name: "Samba Murty",
       role: "Father",
       description: "A pillar of strength and wisdom, guiding the family with love and values.",
-      image: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop"
+      image: {name : Murty}
     },
     {
       name: "Kusumamba",
       role: "Mother",
       description: "The nurturing soul of the family, spreading warmth and care in every step.",
-      image: "https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop"
+       image: {name : Kusuma}
     },
     {
       name: "Sandeep", 
       role: "Brother in law",
       description: " A supportive and caring presence, blending seamlessly into the family with respect and warmth.",
-      image: "https://images.pexels.com/photos/1689731/pexels-photo-1689731.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop"
+       image: {name : Sandeep}
     },
     {
       name: "Srivani",
       role: "Sister",
       description: "A loving companion and source of joy, adding charm and laughter to every moment.",
-      image: "https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop"
+      image: {name : Srivani}
     },
      {
       name: "Girish",
       role: "Brother",
       description: "The spirited and affectionate one, filling the family with energy and happiness.",
-      image: "https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop"
+      image: {name : Girish}
     }
   ];
 
@@ -40,25 +50,25 @@ const People = () => {
       name: "Durga Rao",
       role: "Father", 
       description: "A guiding light with wisdom and strength, always supporting the family with love.",
-      image: "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop"
+      image: {name : Durgarao}
     },
     {
       name: "Bhagya Lakshmi",
       role: "Mother",
       description: "The heart of the home, nurturing with warmth, care, and endless affection.",
-      image: "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop"
+      image: {name : Bhagya}
     },
     {
       name: "Abhishek",
       role: "Brother in law", 
       description: " A supportive and respected member, adding strength and harmony to the bond.",
-      image: "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop"
+       image: {name : Abhishek}
     },
     {
       name: "Priyanka",
       role: "Sister",
       description: "A loving and cheerful presence, bringing joy and togetherness to the family.",
-      image: "https://images.pexels.com/photos/1212984/pexels-photo-1212984.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop"
+       image: {name : Priyanka}
     }
   ];
 
@@ -68,10 +78,10 @@ const People = () => {
         <div className="text-center mb-16">
           <Users className="mx-auto mb-4 text-rose-500" size={40} />
           <h2 className="text-4xl md:text-5xl font-serif font-bold text-gray-900 mb-4">
-            Our Enagagement Party
+            Our Family
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Meet the amazing people who will be standing by our side on our special day. These are our dearest friends and family who have supported our love story from the beginning.
+            Meet the amazing people who will be standing by our side on our special day. These are our beautiful family who have supported our love story from the beginning.
           </p>
         </div>
 
@@ -87,7 +97,7 @@ const People = () => {
               <div key={index} className="text-center group">
                 <div className="relative mb-6 overflow-hidden rounded-full w-48 h-48 mx-auto shadow-xl group-hover:shadow-2xl transition-all duration-300">
                   <img
-                    src={person.image}
+                    src={person.image.name}
                     alt={person.name}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />
@@ -117,7 +127,7 @@ const People = () => {
               <div key={index} className="text-center group">
                 <div className="relative mb-6 overflow-hidden rounded-full w-48 h-48 mx-auto shadow-xl group-hover:shadow-2xl transition-all duration-300">
                   <img
-                    src={person.image}
+                    src={person.image.name}
                     alt={person.name}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />

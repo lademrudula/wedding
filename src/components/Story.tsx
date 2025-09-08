@@ -1,5 +1,8 @@
 import React from 'react';
 import { Calendar, HeartHandshake , Heart, BellRing as Ring } from 'lucide-react';
+import Engagementring from '../images/Engagement.png'
+import Unionofhearts from '../images/UnionOfHearts.png'
+import CoffeDate from '../images/CoffeDate.png'
 
 const Story = () => {
   const timeline = [
@@ -8,14 +11,14 @@ const Story = () => {
       title: "First Meet",
       description: "Pavan and Mrudula’s journey began with a traditional arranged meeting that quickly turned into a warm and effortless connection. In that very first conversation, they found shared values, mutual respect, and a sense of comfort — the beautiful beginning of a lifelong bond filled with love and togetherness. ",
       icon: Heart,
-      image: "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
+      image: {name : CoffeDate}
     },
     {
       date: "30 August 2025",
       title: "Union Of Hearts",
       description: "The match was beautifully fixed on a memorable day when two hearts and two families came together with joy and blessings. With the warmth of loved ones and the grace of tradition, Mrudula and Pavan’s bond was sealed, marking the beginning of a lifelong journey filled with love, trust, and togetherness.",
       icon: HeartHandshake,
-      image: "https://images.pexels.com/photos/1405963/pexels-photo-1405963.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
+      image: {name : Unionofhearts}
     },
     
     {
@@ -23,7 +26,7 @@ const Story = () => {
       title: "Enagagement",
       description: "We are delighted to share that the engagement of Mrudula & Pavan is soon to happen, a joyous occasion where two hearts and families come together to celebrate love and togetherness. With blessings and happiness all around, this marks the beautiful beginning of their lifelong journey.",
        icon: Calendar,
-      image: "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
+      image: {name : Engagementring}
     },
     
   ];
@@ -60,7 +63,7 @@ const Story = () => {
                   <div className="bg-gray-50 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 group">
                     <div className="mb-6 overflow-hidden rounded-lg">
                       <img
-                        src={item.image}
+                        src={item.image.name}
                         alt={item.title}
                         className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                       />

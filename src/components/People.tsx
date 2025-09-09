@@ -150,13 +150,6 @@ const People = () => {
           <h3 className="text-2xl font-serif font-bold text-gray-900 mb-8 text-center">
             Heart Felt Thanks
           </h3>
-          <div>
-              <h4 className="text-xl font-semibold text-gray-900 mb-4">From Parents of the Bride</h4>
-              <p className="text-gray-600">
-                <strong>Samba Murty & Kusumamba</strong><br />
-                Thank you for raising such an amazing son and for embracing Mrudula as your own daughter from day one.
-              </p>
-            </div>
           <div className="grid md:grid-cols-2 gap-8 text-center">
             <div>
               <h4 className="text-xl font-semibold text-gray-900 mb-4">From Parents of the Groom</h4>
@@ -165,6 +158,13 @@ const People = () => {
                 Thank you for raising the most wonderful daughter and for welcoming Pavan Kumar Varanasi, into your family with open arms.
               </p>
             </div>
+            <div>
+              <h4 className="text-xl font-semibold text-gray-900 mb-4">From Parents of the Bride</h4>
+              <p className="text-gray-600">
+                <strong>Samba Murty & Kusumamba</strong><br />
+                Thank you for raising such an amazing son and for embracing Mrudula as your own daughter from day one.
+              </p>
+          </div>
           </div>
         </div>
       </div>

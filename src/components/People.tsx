@@ -148,7 +148,7 @@ const People = () => {
         {/* Parents */}
         <div className="mt-20 bg-gray-50 rounded-2xl p-8">
           <h3 className="text-2xl font-serif font-bold text-gray-900 mb-8 text-center">
-            Our Families
+            Heart Felt Thanks
           </h3>
           <div className="grid md:grid-cols-2 gap-8 text-center">
             <div>

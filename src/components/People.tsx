@@ -152,17 +152,17 @@ const People = () => {
           </h3>
           <div className="grid md:grid-cols-2 gap-8 text-center">
             <div>
-              <h4 className="text-xl font-semibold text-gray-900 mb-4">From Parents of the Groom</h4>
-              <p className="text-gray-600">
-                <strong>Durga Rao &  Bhagya Lakshmi</strong><br />
-                Thank you for raising the most wonderful daughter and for welcoming Pavan Kumar Varanasi, into your family with open arms.
-              </p>
-            </div>
-            <div>
               <h4 className="text-xl font-semibold text-gray-900 mb-4">From Parents of the Bride</h4>
               <p className="text-gray-600">
                 <strong>Samba Murty & Kusumamba</strong><br />
                 Thank you for raising such an amazing son and for embracing Mrudula as your own daughter from day one.
+              </p>
+            </div>
+            <div>
+              <h4 className="text-xl font-semibold text-gray-900 mb-4">From Parents of the Groom</h4>
+              <p className="text-gray-600">
+                <strong>Durga Rao &  Bhagya Lakshmi</strong><br />
+                Thank you for raising the most wonderful daughter and for welcoming Pavan Kumar Varanasi, into your family with open arms.
               </p>
           </div>
           </div>

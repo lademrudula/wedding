@@ -33,7 +33,8 @@ const Hero = () => {
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center">
       {/* Background Image */}
-      <div className="absolute inset-0">
+     
+ <div className="absolute inset-0">
         <img
           src="https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop"
           alt="Wedding couple"

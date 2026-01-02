@@ -56,7 +56,7 @@ const Hero = () => {
           
           {/* Countdown Timer */}
           <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 max-w-2xl mx-auto mb-8">
-            <h3 className="text-2xl font-serif mb-6"><b>Hola..We are getting Engaged</b> </h3>
+            <h3 className="text-2xl font-serif mb-6"><b>Hola..We are getting Married</b> </h3>
             <div className="grid grid-cols-4 gap-4">
               <div className="text-center">
                 <div className="bg-white/20 backdrop-blur-sm rounded-lg p-4 mb-2">

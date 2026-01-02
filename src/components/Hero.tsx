@@ -10,7 +10,7 @@ const Hero = () => {
   });
 
   // Wedding date - Change this to your actual wedding date
-  const weddingDate = new Date('2025-09-27T10:00:00').getTime();
+  const weddingDate = new Date('2026-02-19T23:33:00').getTime();
 
   useEffect(() => {
     const timer = setInterval(() => {

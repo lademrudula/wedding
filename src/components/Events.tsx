@@ -11,8 +11,7 @@ const Events = () => {
       location: "Sri Krishnaveni Function Hall, Hiramandalam, Andhra Pradesh 532459",
       address: "",
       description:
-        "We are delighted to share that the engagement of Mrudula & Pavan has been joyfully celebrated.
-This beautiful occasion brought together two hearts and two families in a celebration filled with love, blessings, and togetherness. Surrounded by happiness and cherished moments, this marks the graceful beginning of their lifelong journey together.",
+        "We are delighted to share that the engagement of Mrudula & Pavan has been joyfully celebrated.This beautiful occasion brought together two hearts and two families in a celebration filled with love, blessings, and togetherness. Surrounded by happiness and cherished moments, this marks the graceful beginning of their lifelong journey together.",
       icon: Music,
       image: { name: Engagementring }
     },

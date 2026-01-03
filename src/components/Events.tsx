@@ -23,7 +23,7 @@ const Events = () => {
         <div className="text-center mb-12 sm:mb-16">
           <Calendar className="mx-auto mb-4 text-rose-500" size={40} />
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-gray-900 mb-4">
-                 Events
+            Engagement Events
           </h2>
           <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto px-2">
             Mark your calendars! Here's everything you need to know about our special day and the celebrations that surround it.

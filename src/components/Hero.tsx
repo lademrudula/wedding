@@ -51,7 +51,7 @@ const Hero = () => {
             Pavan & Mrudula
           </h1>
           <p className="text-xl md:text-2xl mb-8 font-light">
-            <b>27 September 2025</b>
+            <b>19 February 2026</b>
           </p>
           
           {/* Countdown Timer */}

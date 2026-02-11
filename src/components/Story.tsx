@@ -21,13 +21,13 @@ const Story = () => {
       image: {name : Unionofhearts}
     },
     
-    {
+    /*{
       date: "27 September 2025",
       title: "Enagagement",
       description: "We are delighted to share that the engagement of Mrudula & Pavan is soon to happen, a joyous occasion where two hearts and families come together to celebrate love and togetherness. With blessings and happiness all around, this marks the beautiful beginning of their lifelong journey.",
        icon: Calendar,
       image: {name : Engagementring}
-    },
+    },*/
     
   ];
 

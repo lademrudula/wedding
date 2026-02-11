@@ -1,20 +1,58 @@
 import React from 'react';
 import { Calendar, Clock, MapPin, Music } from 'lucide-react';
-import Engagementring from '../images/Engagement.png'
+import Sangeeth from '../images/sangeeth.png'
+import Engagement from '../images/Engagement2.png'
+import Wedding from '../images/Wedding.png'
+import Reception from '../images/Reception.png'
+
 
 const Events = () => {
   const events = [
     {
-      title: "Engagement Party",
-      date: "Sept 27 2025",
-      time: "10AM - 3PM",
+      title: "Engagement",
+      date: "Sept 27, 2025",
+      time: "10:00 AM - 3:00 PM",
       location: "Sri Krishnaveni Function Hall, Hiramandalam, Andhra Pradesh 532459",
-      address: "",
+                          
+      gmaplocation: "https://maps.app.goo.gl/JdgUnSBmvsZyS2626",
       description:
-        "We are delighted to share that the engagement of Mrudula & Pavan has been joyfully celebrated.This beautiful occasion brought together two hearts and two families in a celebration filled with love, blessings, and togetherness. Surrounded by happiness and cherished moments, this marks the graceful beginning of their lifelong journey together.",
+      "We are delighted to share that the engagement of Mrudula & Pavan has been joyfully celebrated.This beautiful occasion brought together two hearts and two families in a celebration filled with love, blessings, and togetherness. Surrounded by happiness and cherished moments, this marks the graceful beginning of their lifelong journey together.",  
       icon: Music,
-      image: { name: Engagementring }
+      image: { name: Engagement }
     },
+    {
+      title: "Sangeeth",
+      date: "Feb 18, 2026",
+      time: "5:30 PM - 9:30 PM",
+      location: "B Square Function Hall, Muralinagar, Visakhapatnam, Andhra Pradesh 530007",
+      gmaplocation: "https://maps.app.goo.gl/2xre6a4dKAhbAp528?g_st=aw",
+      description:
+        "An evening of music, dance, and pure celebration as Pavan & Mrudula groove into their new beginning! 💃🕺Join us for a night filled with love, laughter, and unforgettable performances as our families come together to celebrate this beautiful journey.",
+      icon: Music,
+      image: { name: Sangeeth }
+    },
+    {
+      title: "Reception",
+      date: "Feb 19, 2026",
+      time: "12:00 PM Onwards",
+      location: "Vuda Community Hall, Madhavadhara, Andhra Pradesh",
+      gmaplocation: "https://maps.app.goo.gl/Unke3Sn41eEh1PCW7?g_st=aw",
+      description:
+        "With the blessings of our elders and the love of our families, Pavan & Mrudula are joyfully tying the knot and beginning their forever together. ✨Join us as we unite not just two hearts, but two families, in a celebration filled with traditions, happiness, and heartfelt moments.",
+      icon: Music,
+      image: { name: Reception }
+    },
+    {
+      title: "Wedding",
+      date: "Feb 19, 2026",
+      time: "11:33 PM ",
+      location: "Vuda Community Hall, Madhavadhara, Andhra Pradesh",
+      gmaplocation: "https://maps.app.goo.gl/Unke3Sn41eEh1PCW7?g_st=aw",
+      description:
+        "With the blessings of our elders and the love of our families, Pavan & Mrudula are joyfully tying the knot and beginning their forever together. ✨Join us as we unite not just two hearts, but two families, in a celebration filled with traditions, happiness, and heartfelt moments.",
+      icon: Music,
+      image: { name: Wedding }
+    }
   ];
 
   return (
@@ -30,7 +68,7 @@ const Events = () => {
           </p>
         </div>
 
-        <div className="flex justify-center">
+        <div className="flex flex-col items-center gap-5">
           {events.map((event, index) => {
             const Icon = event.icon;
             return (
@@ -65,14 +103,14 @@ const Events = () => {
                       <div>
                         <div className="font-medium">
                           <a 
-                            href="https://maps.app.goo.gl/JdgUnSBmvsZyS2626" 
+                            href={event.gmaplocation} 
                             target='_blank' 
                             className="text-gray-600 hover:text-gray-900 transition-colors text-sm sm:text-base break-words"
                           >
                             {event.location}
                           </a>
                         </div>
-                        <div className="text-sm">{event.address}</div>
+                        
                       </div>
                     </div>
                   </div>

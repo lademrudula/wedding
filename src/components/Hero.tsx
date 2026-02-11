@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Heart, Home } from 'lucide-react';
+import Wallpaper from '../images/Wallpaper.png'
 
 const Hero = () => {
   const [timeLeft, setTimeLeft] = useState({
@@ -36,7 +37,7 @@ const Hero = () => {
      
  <div className="absolute inset-0">
         <img
-          src="https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop"
+          src= {Wallpaper}
           alt="Wedding couple"
           className="w-full h-full object-cover"
         />
